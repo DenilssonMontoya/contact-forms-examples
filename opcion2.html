@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto Semana 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav id="navigation">
+                <a href="index.html" >Opción 01</a>
+                <a href="opcion2.html" class="enlaceActivo">Opción 02</a>
+                <a href="opcion3.html">Opción 03</a>
+
+        </nav>
+
+    </header>
+    <main>        
+        <section id="containerReto1">
+            <form action="#" method="GET">
+                    <h1>Sign Up</h1> 
+                    <label>First Name</label>
+                    <input type="text" class="inputTextForm" required minlength="6">
+                    <label>Age</label>
+                    <input type="number"  class="inputNumberForm" required min="1" max="120">
+                    <label>Income</label>                    
+                    <input type="number"  class="inputNumberForm" required min="0">
+                    <label>More Info</label>                    
+                    <textarea required minlength="6"></textarea>                    
+                    <label>Gender</label>    
+                    <div class="containerFull">
+                        <input type="radio" value="M" name="sex" required> <label for="sex">Male</label>
+                        <input type="radio" value="F" name="sex" required> <label for="sex">Female</label>
+                        <input type="radio" value="T" name="sex" required> <label for="sex">Trans</label>
+                    </div>                
+
+                    <label>Plan</label>    
+                    <div class="containerFull">
+                        <select class="inputSelectForm" required>
+                            <option value="" disabled selected>Select Plan</option>
+                            <option value="1">Plan 1</option>
+                            <option value="2">Plan 2</option>
+                            <option value="3">Plan 3</option>
+                        </select>
+                    </div>    
+
+                    <div class="containerFull">
+                        <input type="checkbox" name="check" > <label for="check">Suscribe to newsletter</label>
+                    </div>                        
+                    <input type="submit" value="Update" class="buttonForm">
+                
+            </form>
+        </section>        
+
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
