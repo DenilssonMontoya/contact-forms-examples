@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+}
+
+.inputTextForm {
+  height: 34px;
+  width: 95%;
+  padding: 6px;
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.inputNumberForm {
+  height: 34px;
+  width: 95%;
+  padding: 6px;
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.inputSelectForm {
+  height: 34px;
+  width: 95%;
+  padding: 6px;
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.buttonForm {
+  background-color: #283d50;
+  color: white;
+  height: 45px;
+  width: 80px;
+  border: 0;
+  text-decoration: none;
+}
+
+#navigation {
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-bottom: 30px;
+  height: 60px;
+  display: flex;
+}
+
+#containerReto1 {
+  height: 700px;
+  padding: 20px;
+  border: 1px solid rgb(231, 231, 231);
+  box-sizing: border-box;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 3px 3px 3px 3px #283d50;
+}
+
+nav a {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #283d50;
+  margin-right: 10px;
+  width: 150px;
+}
+
+nav a:hover {
+  background-color: rgb(20, 181, 200);
+}
+
+.enlaceActivo {
+  background-color: rgb(20, 181, 200);
+  border-bottom: 5px solid #283d50;
+}
+
+form label {
+  font-weight: bold;
+}
+
+textarea {
+  height: 70px;
+  width: 95%;
+  padding: 6px;
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.containerFull {
+  width: 95%;
+  margin-bottom: 15px;
+}
